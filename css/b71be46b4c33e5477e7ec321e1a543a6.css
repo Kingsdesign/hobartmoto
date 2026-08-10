@@ -2317,7 +2317,7 @@ tr.summary-details-excluded{font-style:italic}
 .header .logo strong{height:0;left:-999em;line-height:0;overflow:hidden;position:absolute;text-indent:-999em;top:-999em;width:0}
 .cms-home .header-container{display:none;}
 .cms-home .header-container.sticky{display:block;}
-.bread-top{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bg-bread.jpg) center center no-repeat;background-size:cover;position:relative;height:320px}
+.bread-top{background:url(./imgs/bg-bread.jpg) center center no-repeat;background-size:cover;position:relative;height:320px}
 .bread-top:before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:1}
 .bread-top .breadcrumbs{position:absolute;display:inline-block;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);z-index:2;width:100%;text-align:center}
 .bread-top .breadcrumbs ul{display:block}
