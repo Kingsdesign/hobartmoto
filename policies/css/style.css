@@ -1,0 +1,87 @@
+body {margin: 15px 0px 0px 0px; font-size: 1.4em; font-family: 'Open Sans', sans-serif;}
+h1{margin: 25px 0;}
+h2{margin: 15px 0;}
+p{margin: 15px 0;}
+a, a:hover{color: #fe0002; }
+
+nav{background-color: rgba(20, 20, 20, 0.9);width: 100%; height: 80px;padding: 10px 0; position: absolute; z-index: 1;}    
+nav.sticky {position: fixed;top: 0;}
+nav img{max-height: 80px;}  
+nav .navButton {float: right;font-size: 14px;font-weight: 600;padding: 12px 25px;text-transform: uppercase;letter-spacing: 1px;border: 2px solid #fe0002; border-radius: 4px;color: #fe0002;margin-top: 6.5px;cursor: pointer;-webkit-transition: all .25s ease-in-out;-moz-transition: all .25s ease-in-out; -ms-transition: all .25s ease-in-out;-o-transition: all .25s ease-in-out;transition: all .25s ease-in-out;}
+nav .navButton:hover, nav .navButton:focus, nav .navButton.open {background: #fe0002;color: black;text-decoration: none;}
+#hero{background: #000000;background-image: url(../img/motorbackground.jpg) ;background-size:cover;  width:100%; height:auto;}
+#hero .logo { top: 50%; position: relative; text-align: center; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%);}
+    
+.intro, .contact{margin-top:100px;}
+    
+#hero a i {color: white;font-size: 30px;position: absolute;bottom: 50px;text-align: center; left:49%}
+
+@keyframes pulse { 0% { transform: scale(1, 1); } 50% { transform: scale(1.3, 1.3); } 100% { transform: scale(1, 1); } }
+@-webkit-keyframes pulse { 0% { -webkit-transform: scale(1, 1); } 50% { -webkit-transform: scale(1.3, 1.3); }100% { -webkit-transform: scale(1, 1); } }
+.animating {-webkit-animation: pulse 1s linear infinite;animation: pulse 1s linear infinite;}
+
+.about{background: url(../img/intro-background.jpg) ;background-size:cover;  }
+.intro {width: 45%; height: 100%; background:#fff; padding:50px; margin:auto; margin:250px auto 200px;}
+.intro h2{    color: #fe0002; font-size: 18px; text-transform:uppercase;}
+.intro h1{     font-size: 30px; font-weight: bold;text-transform:uppercase;}
+
+.location{background-image: url(../img/concrete.jpg) ;background-size:cover; text-transform:uppercase; }
+.location-content{margin:200px auto 50px; width: 50%; height: 100%; text-align:center;}
+.location-content i.fa-3{font-size: 300%; color:#000;}
+.location-content p{ color: #fe0002; font-size: 120%; line-height:160%}
+.paneTwo .content-container{background-image: url(../img/concrete.jpg)  ;}
+
+.paneThree .content-container{background:#e51c20;}
+.bike-content{text-align: right;}
+.bike , .used-bikes{margin:100px auto 100px;}
+.bike-content img{padding: 30px; background-image: url(../img/concrete.jpg)  ;}
+.used-bikes-content{text-align: center; color:#fff; text-transform:uppercase; width:50%; margin:0 auto}
+.used-bikes-content hr{width: 40%; }
+.used-bikes-content h1, .used-bikes-content h2, .used-bikes-content hr{margin-bottom:80px}
+.used-bikes-content h2{font-size: 28px;}
+
+.paneFour .content-container{background:#333;}
+.service-content{margin:100px auto 100px;}
+.service-content{color: #fff;width: 70%; height: 100%; text-align:center; text-transform:uppercase;}
+.service-content h1, .service-content h2, .service-content hr{margin-bottom:60px}
+.service-content hr{border-top: 1px solid red; width:40%}
+.service-content  h2{font-size: 26px;}
+.service-image img{width: 100%; height: auto;}
+.service-content .navButton{font-size: 14px;font-weight: 600;padding: 12px 25px;text-transform: uppercase;letter-spacing: 1px;border: 2px solid #fff; border-radius: 4px;color: #fff;}
+
+
+.paneFive .location-content{margin-top: 100px;}
+
+
+html {background: white;}
+.pane {height: 25%;display: inline-block;width: 100%;vertical-align: top;overflow: hidden;}
+.footer .spacing {padding-top: 0!important;}
+.pane .content-container {height: 100%;width: auto;/* padding: 15% 15px; */vertical-align: top;}
+.header {margin-top: -15px;padding-top: 15px;background-size: white;}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1200px) 
+  {
+  .intro{margin:200px auto 150px; width: 60%;}
+.location-content {margin: 150px auto 50px; width: 80%;}
+.about{padding-top: 1px; padding-bottom: 1px;}
+.bike-content {text-align: center;}
+#map{height: 700px; overflow:hidden;}
+.used-bikes-content{width: 70%;}
+}
+
+
+
+@media (max-width: 767px) { 
+	.logo img{max-width:60%;}
+	.intro{width: 80%;}
+	.about{padding-top: 1px; padding-bottom: 1px;}
+	.location-content {margin: 50px auto 50px; width: 100%;}
+	.bike-content {text-align: center;}
+	.bike-content img{padding: 0; width: 100%; height: auto;}
+	.used-bikes-content{width: 80%;}
+	.service-content{width: 80%;}
+	#map{height: 400px; overflow:hidden;}
+	
+}
