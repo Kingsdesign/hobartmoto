@@ -2,7 +2,7 @@
 
 ## Current Focus
 
-The Memory Bank has been initialized from the repository baseline. The next planned body of work is the staged repair of the existing static scrape, following the sequence documented in `docs/prompts.md`.
+The homepage three-image hero rotator repair is complete. The next planned body of work is the remaining staged repair of the existing static scrape, following the sequence documented in `docs/prompts.md`.
 
 ## Current Repository State
 
@@ -26,7 +26,7 @@ The Memory Bank has been initialized from the repository baseline. The next plan
 ## Planned Repair Sequence
 
 1. Establish the shared repair CSS/JS layer and perform a baseline asset audit.
-2. Repair the homepage three-image hero rotator.
+2. Repair the homepage three-image hero rotator. **Completed.**
 3. Repair shared desktop/mobile navigation and footer behavior.
 4. Repair contact-page layout and provide an honest static-compatible enquiry path.
 5. Repair finance-page content, links, and responsive presentation.
@@ -53,3 +53,11 @@ The Memory Bank has been initialized from the repository baseline. The next plan
 - Duplicated route-local assets make fixes easy to apply inconsistently.
 - The shop references different bundle names from most other Magento-derived pages.
 - The policy page has a separate architecture and likely missing favicon/manifest assets.
+
+## Latest Completed Work — Homepage Hero Rotator
+
+- Added three explicit, root-relative local hero images to `/index.html`.
+- Added isolated responsive fade styling to `/assets/css/fixes.css`.
+- Added an idempotent vanilla-JavaScript rotator to `/assets/js/site.js` with 4-second slide timing, 700ms fades, reduced-motion stability, visibility pause/resume, and failed-image fallback.
+- Removed only the active legacy remote-image rotator handler from the root generated bundle while preserving its unrelated loaded-state initialization.
+- Validated over local HTTP at desktop and mobile widths for more than two cycles; all three hero images returned HTTP 200 from the local origin, the Shop Bikes link remained topmost and navigated to `/shop/`, reduced motion held the first slide, and no uncaught hero errors or hero-image 404s were observed.

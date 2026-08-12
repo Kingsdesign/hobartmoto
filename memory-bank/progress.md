@@ -2,7 +2,7 @@
 
 ## Current Status
 
-**Phase:** Baseline captured; repair work not yet implemented.
+**Phase:** Homepage hero rotator repaired; remaining staged repairs pending.
 
 The repository contains a complete initial static scrape for all six intended routes. Memory Bank documentation now records its purpose, architecture, constraints, and planned repair sequence.
 
@@ -18,6 +18,10 @@ These observations confirm file presence only. Full browser functionality and de
 
 ## Completed Work
 
+- Repaired the homepage hero as a three-image local fade rotator with explicit HTML slides, project-owned CSS/JavaScript, reduced-motion handling, visibility pause/resume, and missing-image fallback.
+- Removed the root bundle's active remote hero append/fade handler with a narrow targeted edit.
+- Validated desktop/mobile rendering, two full cycles, local hero network responses, Shop Bikes clickability, reduced motion, JavaScript syntax, and final diff cleanliness.
+
 - Inspected repository structure, Git state/history, page entry points, asset layout, and project instructions.
 - Confirmed there is no package/build system and no existing Memory Bank.
 - Initialized all six required Memory Bank files.
@@ -27,7 +31,7 @@ These observations confirm file presence only. Full browser functionality and de
 
 - Create and include the project-owned repair stylesheet and JavaScript.
 - Perform and record a complete local/remote/missing asset audit.
-- Repair the homepage hero rotator.
+- Repair the homepage hero rotator. **Completed.**
 - Normalize and repair shared desktop/mobile navigation and footer.
 - Repair the contact page and settle on a truthful static enquiry mechanism.
 - Repair finance-page presentation and links.
