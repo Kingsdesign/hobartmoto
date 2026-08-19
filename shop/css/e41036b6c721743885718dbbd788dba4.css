@@ -38,7 +38,7 @@
 .widget-new-products .products-list .product-image { width:85px; height:85px; }
 .widget-new-products .products-list .product-shop { margin-left:100px; }
 .sidebar .widget-new-products .block { font-size:11px; line-height:1.25; }
-.sidebar .widget-new-products .block-title strong { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_widget-new.gif) 0 1px no-repeat; padding-left:21px; color:#dc5033; }
+.sidebar .widget-new-products .block-title strong { background:url(/skin/frontend/base/default/images/widgets/i_widget-new.gif) 0 1px no-repeat; padding-left:21px; color:#dc5033; }
 
 /* Widget: Recently Viewed Proructs */
 .widget-viewed { display:block; }
@@ -47,7 +47,7 @@
 .widget-viewed .products-list .product-image { width:85px; height:85px; }
 .widget-viewed .products-list .product-shop { margin-left:100px; }
 .sidebar .widget-viewed .block { font-size:11px; line-height:1.25; }
-.sidebar .widget-viewed .block-title strong { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_block-list.gif) 0 0 no-repeat; padding-left:21px; }
+.sidebar .widget-viewed .block-title strong { background:url(/skin/frontend/base/default/images/widgets/i_block-list.gif) 0 0 no-repeat; padding-left:21px; }
 
 /* Widget: Recently Compared Proructs */
 .widget-compared { display:block;}
@@ -56,7 +56,7 @@
 .widget-compared .products-list .product-image { width:85px; height:85px; }
 .widget-compared .products-list .product-shop { margin-left:100px; }
 .sidebar .widget-compared .block { font-size:11px; line-height:1.25; }
-.sidebar .widget-compared .block-title strong { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_block-list.gif) 0 0 no-repeat; padding-left:21px; }
+.sidebar .widget-compared .block-title strong { background:url(/skin/frontend/base/default/images/widgets/i_block-list.gif) 0 0 no-repeat; padding-left:21px; }
 
 /* Widget: CMS Static Block */
 .widget-static-block {}
@@ -71,28 +71,28 @@
 .widget-product-link-inline { display:inline; }
 
 .col-main .widget-product-link { display:block; text-align:right; margin:7px 0; }
-.col-main .widget-product-link a { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
+.col-main .widget-product-link a { background:url(/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
 
 .sidebar .widget-product-link { display:block; margin:0 0 15px; padding:0 10px; }
-.sidebar .widget-product-link a { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
+.sidebar .widget-product-link a { background:url(/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
 
 /* Widget: Catalog Category Link */
 .widget-category-link-inline { display:inline; }
 
 .col-main .widget-category-link { display:block; text-align:right; margin:7px 0; }
-.col-main .widget-category-link a { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
+.col-main .widget-category-link a { background:url(/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
 
 .sidebar .widget-category-link { display:block; margin:0 0 15px; padding:0 10px; }
-.sidebar .widget-category-link a { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
+.sidebar .widget-category-link a { background:url(/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
 
 /* Widget: CMS Page Link */
 .widget-cms-link-inline { display:inline; }
 
 .col-main .widget-cms-link { display:block; text-align:right; margin:7px 0; }
-.col-main .widget-cms-link a { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
+.col-main .widget-cms-link a { background:url(/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
 
 .sidebar .widget-cms-link { display:block; margin:0 0 15px; padding:0 10px; }
-.sidebar .widget-cms-link a { background:url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
+.sidebar .widget-cms-link a { background:url(/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
 /* ======================================================================================= */
 
 .postWrapper {
@@ -283,7 +283,7 @@
 }
 
 .block-blog .block-title strong {
-    background-image: url(https://www.hobartmotorcycles.com.au/skin/frontend/base/default/aw_blog/images/icon_blog.png);
+    background-image: url(/skin/frontend/base/default/aw_blog/images/icon_blog.png);
     background-repeat: no-repeat;
     padding-left: 21px;
     text-align: left;
@@ -330,7 +330,7 @@ div.message-alert {
     opacity: 0;
 }
 div.message-alert button {
-    background: url("https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/css/ktmcore/ajaxcart/images/close.png") no-repeat scroll 0 0 transparent;
+    background: url("/skin/frontend/ktmvelo/home02/css/ktmcore/ajaxcart/images/close.png") no-repeat scroll 0 0 transparent;
     border: none;
     height: 9px;
     position: absolute;
@@ -605,7 +605,7 @@ div.show-sub {
   font-size: 100%;
   text-transform: uppercase;
   font-weight: bold;
-  background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/default/images/line.png) 0 bottom no-repeat;
+  background: url(/skin/frontend/ktmvelo/default/images/line.png) 0 bottom no-repeat;
   padding-top: 0;
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -677,7 +677,7 @@ div.show-sub {
   text-transform: uppercase;
 }
 #ktmnav li.level0 ul li.groups > a {
-  background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/default/images/line.png) 0 bottom no-repeat;
+  background: url(/skin/frontend/ktmvelo/default/images/line.png) 0 bottom no-repeat;
   padding-top: 0;
   padding-bottom: 15px;
   margin-bottom: 15px;
@@ -1230,7 +1230,7 @@ ul.products-posts .block-posts-menu.last {
 }
 .main_side_left .ktm-main-menu-vertical div.show-sub li .level1 li.parent,
 .col-left .ktm-main-menu-vertical div.show-sub li .level1 li.parent {
-  background: url("https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/default/images/icon-menu.png") no-repeat 100% 13px;
+  background: url("/skin/frontend/ktmvelo/default/images/icon-menu.png") no-repeat 100% 13px;
   padding-left: 0;
 }
 .main_side_left .ktm-main-menu-vertical div.show-sub li .level1 li,
@@ -1513,7 +1513,7 @@ Hover Effect
   -moz-transition: 0.4s;
   -webkit-transition: 0.4s;
   z-index: 99;
-  background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/default/images/plus.png) no-repeat center center #ffffff;
+  background: url(/skin/frontend/ktmvelo/default/images/plus.png) no-repeat center center #ffffff;
 }
 .hover-effect03:hover {
   opacity: 0.35;
@@ -2136,9 +2136,9 @@ ol.form-list{margin:0}
 .buttons-set{clear:both;margin:10px 0 0;padding:5px 0 0;text-align:right}
 .customer-account-forgotpassword #form-validate ul.form-list{padding:0}
 .customer-account-forgotpassword #form-validate ol.form-list{padding:0}
-.validation-advice{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/validation_advice_bg.gif) 2px 0 no-repeat;clear:both;font-size:12px;background-size:auto 10px;color:#eb340a;line-height:12px;margin:0 0 10px;min-height:12px;padding-left:15px;width:100%}
-.about{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/intro-background.jpg);background-size:cover;height:650px}
-.location{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/concrete.jpg);background-size:cover;text-transform:uppercase}
+.validation-advice{background:url(/skin/frontend/ktmvelo/home02/images/validation_advice_bg.gif) 2px 0 no-repeat;clear:both;font-size:12px;background-size:auto 10px;color:#eb340a;line-height:12px;margin:0 0 10px;min-height:12px;padding-left:15px;width:100%}
+.about{background:url(/skin/frontend/ktmvelo/home02/images/intro-background.jpg);background-size:cover;height:650px}
+.location{background-image:url(/skin/frontend/ktmvelo/home02/images/concrete.jpg);background-size:cover;text-transform:uppercase}
 .intro{background:#fff none repeat scroll 0 0;height:100%;margin:250px auto 200px;padding:50px;width:45%}
 .used-bikes-content {
     text-align: center;
@@ -2155,13 +2155,13 @@ p.required{text-align:left;color:#eb340a}
 .messages ul{list-style:none;margin:0;padding:0}
 .messages li{margin:0 0 10px;list-style:none outside none}
 .messages li li{margin:0 0 3px}
-.note-msg,.notice-msg{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_msg-note.gif) #fcfcfc 10px center no-repeat;border-color:#ececec;color:#3d6611;z-index:3;position:relative}
+.note-msg,.notice-msg{background:url(/skin/frontend/ktmvelo/home02/images/i_msg-note.gif) #fcfcfc 10px center no-repeat;border-color:#ececec;color:#3d6611;z-index:3;position:relative}
 .error-msg,.success-msg,.note-msg,.notice-msg{border:1px solid #ccc;font-size:100%;margin:10px 0;min-height:24px;padding:10px 8px 8px 32px}
 #messages_product_view{margin-top:0}
-#messages_product_view .note-msg{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_msg-note.gif) #efefef 10px center no-repeat}
-#messages_product_view .notice-msg{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_msg-note.gif) #efefef 10px center no-repeat}
-.error-msg{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_msg-error.gif) #faebe7 10px center no-repeat;color:#df280a}
-.success-msg{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_msg-success.gif) #eff5ea 10px center no-repeat;color:#3d6611}
+#messages_product_view .note-msg{background:url(/skin/frontend/ktmvelo/home02/images/i_msg-note.gif) #efefef 10px center no-repeat}
+#messages_product_view .notice-msg{background:url(/skin/frontend/ktmvelo/home02/images/i_msg-note.gif) #efefef 10px center no-repeat}
+.error-msg{background:url(/skin/frontend/ktmvelo/home02/images/i_msg-error.gif) #faebe7 10px center no-repeat;color:#df280a}
+.success-msg{background:url(/skin/frontend/ktmvelo/home02/images/i_msg-success.gif) #eff5ea 10px center no-repeat;color:#3d6611}
 .breadcrumbs{margin:0;outline:none}
 .breadcrumbs .breadcrumbs-container{padding:0 25px;background:#fff}
 .breadcrumbs .ktm-page-title h2{color:#333;font-size:200%;font-weight:lighter;line-height:normal;margin:0;outline:medium none;padding:0;text-transform:uppercase}
@@ -2370,7 +2370,7 @@ tr.summary-details-excluded{font-style:italic}
 .title-divider{background:none repeat scroll 0 0 #cecece;height:1px;margin:10px 0 20px;width:100%;clear:both;display:none}
 .title-divider span{display:block;height:2px;width:70px;background-color:#d25c5a}
 .sidebar .block-nav,.sidebar .block-layered-nav{background:#f3f3f3;padding:20px 20px 30px;margin-bottom:30px}
-.sidebar .block-nav .block-title,.sidebar .block-layered-nav .block-title{padding:0;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/line.png) 0 bottom no-repeat;padding-bottom:15px;margin-bottom:10px}
+.sidebar .block-nav .block-title,.sidebar .block-layered-nav .block-title{padding:0;background:url(/skin/frontend/ktmvelo/home02/images/line.png) 0 bottom no-repeat;padding-bottom:15px;margin-bottom:10px}
 .sidebar .block-nav ul.nav-accordion > li > a{border-bottom:0;color: #333;}
 .sidebar .block-nav ul.nav-accordion li span.expand,.sidebar .block-nav ul.nav-accordion li span.collapse{border-left:0}
 .sidebar .block-nav ul.nav-accordion ul.level0 > li > a{padding-left:10px;color: #333;}
@@ -2477,9 +2477,9 @@ tr.summary-details-excluded{font-style:italic}
 .product-details .btn-remove{font-weight:400;float:left;line-height:16px;outline:medium none;padding:0 10px 0 0;text-indent:inherit;text-transform:none;width:auto}
 .product-details .link-cart{width:100%}
 .btn-edit span.icon{border-radius:50% 50% 50% 50%;-webkit-border-radius:50%;-moz-border-radius:50%;float:left;height:16px;margin:0 5px 0 0;outline:medium none;padding:0;width:16px}
-.btn-remove span.icon{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/btn-remove.png);border-radius:50% 50% 50% 50%;float:left;height:16px;outline:medium none;padding:0;width:16px;margin:0 5px 0 0}
-.block-compare .btn-remove{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/btn-remove.png);border-radius:50% 50% 50% 50%;float:left;height:16px;outline:medium none;padding:0;width:16px;margin:0 5px 0 0}
-.ktm-ajaxcompare a.btn-remove{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/btn-remove.png);border-radius:50% 50% 50% 50%;float:left;height:16px;outline:medium none;padding:0;width:16px;margin:0 5px 0 0}
+.btn-remove span.icon{background-image:url(/skin/frontend/ktmvelo/home02/images/btn-remove.png);border-radius:50% 50% 50% 50%;float:left;height:16px;outline:medium none;padding:0;width:16px;margin:0 5px 0 0}
+.block-compare .btn-remove{background-image:url(/skin/frontend/ktmvelo/home02/images/btn-remove.png);border-radius:50% 50% 50% 50%;float:left;height:16px;outline:medium none;padding:0;width:16px;margin:0 5px 0 0}
+.ktm-ajaxcompare a.btn-remove{background-image:url(/skin/frontend/ktmvelo/home02/images/btn-remove.png);border-radius:50% 50% 50% 50%;float:left;height:16px;outline:medium none;padding:0;width:16px;margin:0 5px 0 0}
 .block-wishlist .actions a{float:none}
 .block-wishlist .block-subtitle{font-weight:400;line-height:normal;outline:none;padding:0 0 10px;text-align:center}
 .block-wishlist ol{margin:0}
@@ -2642,13 +2642,13 @@ tr.summary-details-excluded{font-style:italic}
 #checkout-review-submit .place-order span.please-wait{text-align:right}
 #multiship-addresses-table td .btn-remove2{border-radius:50% 50% 50% 50%;background-color:#ececec}
 #multiship-addresses-table td .btn-remove2:hover{background-color:#f56032}
-.btn-remove2{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/btn-remove.png) no-repeat scroll 0 0 transparent;height:16px;width:16px}
+.btn-remove2{background:url(/skin/frontend/ktmvelo/home02/images/btn-remove.png) no-repeat scroll 0 0 transparent;height:16px;width:16px}
 .no-display{display:none}
 .ratings-table{width:100%;margin-bottom:10px;margin-top:10px}
 .ratings-table th{border:1px solid #ddd;font-weight:400;line-height:20px;padding:12px;vertical-align:middle}
 .ratings-table td{border:1px solid #ddd;font-weight:400;line-height:20px;padding:12px;vertical-align:middle}
-.rating-box{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bg_ratings.png) repeat-x scroll 0 1px transparent;display:inline-block;height:13px;position:relative;vertical-align:top;width:78px}
-.rating-box .rating{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bg_ratings.png) repeat-x scroll 0 100% transparent;height:13px;left:0;position:absolute;top:0}
+.rating-box{background:url(/skin/frontend/ktmvelo/home02/images/bg_ratings.png) repeat-x scroll 0 1px transparent;display:inline-block;height:13px;position:relative;vertical-align:top;width:78px}
+.rating-box .rating{background:url(/skin/frontend/ktmvelo/home02/images/bg_ratings.png) repeat-x scroll 0 100% transparent;height:13px;left:0;position:absolute;top:0}
 .ratings .amount a{font-size:85%}
 .account-login .buttons-set{background-color:#fff;box-shadow:0 0 1px 0 #ddd}
 #product-options-wrapper{position:static}
@@ -2916,8 +2916,8 @@ em.required{color:#d9673b}
 .collection-positionleft .item .price-box .price{font-size:115%}
 .collection-positionleft .item .price-box .old-price .price{font-size:95%}
 .collection-positionleft .item .ratings{margin:0}
-.collection-positionleft .item .rating-box{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bkg_rating2.png) repeat-x scroll 0 0 transparent;height:11px;width:74px}
-.collection-positionleft .item .rating-box .rating{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bkg_rating2.png) repeat-x scroll 0 100% transparent;height:11px;left:1px}
+.collection-positionleft .item .rating-box{background:url(/skin/frontend/ktmvelo/home02/images/bkg_rating2.png) repeat-x scroll 0 0 transparent;height:11px;width:74px}
+.collection-positionleft .item .rating-box .rating{background:url(/skin/frontend/ktmvelo/home02/images/bkg_rating2.png) repeat-x scroll 0 100% transparent;height:11px;left:1px}
 .catpanel{backface-visibility:hidden}
 .product-image-hover{overflow:hidden;position:relative}
 .product-image-hover a .alt-image{transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);transition:transform 1s cubic-bezier(0.19,1,0.22,1) 0;-o-transition:transform 1s cubic-bezier(0.19,1,0.22,1) 0;-moz-transition:transform 1s cubic-bezier(0.19,1,0.22,1) 0;-webkit-transition:transform 1s cubic-bezier(0.19,1,0.22,1) 0}
@@ -3019,8 +3019,8 @@ em.required{color:#d9673b}
 .item-options dt{font-style:italic;font-weight:700}
 table td a.btn-remove{border-radius:50%;display:block;height:30px;margin:5px auto;outline:medium none;transition:background 200ms ease-in-out 0;width:30px;text-align:center;line-height:30px;background-color:transparent!important}
 table td a.btn-edit{border-radius:50%;display:block;height:30px;margin:5px auto;outline:medium none;transition:background 200ms ease-in-out 0;width:30px}
-table th a.btn-remove{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/delete.png) no-repeat scroll 50% 50% #ececec;border-radius:100% 100% 100% 100%;display:block;height:30px;margin:5px auto;outline:medium none;transition:background 200ms ease-in-out 0;width:30px}
-table th a.btn-remove:hover{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/delete.png) no-repeat scroll 50% 50% #f56032}
+table th a.btn-remove{background:url(/skin/frontend/ktmvelo/home02/images/delete.png) no-repeat scroll 50% 50% #ececec;border-radius:100% 100% 100% 100%;display:block;height:30px;margin:5px auto;outline:medium none;transition:background 200ms ease-in-out 0;width:30px}
+table th a.btn-remove:hover{background:url(/skin/frontend/ktmvelo/home02/images/delete.png) no-repeat scroll 50% 50% #f56032}
 table th a.btn-edit{border-radius:100% 100% 100% 100%;display:block;height:30px;margin:5px auto;outline:medium none;transition:background 200ms ease-in-out 0;width:30px}
 .btn-previous{display:block;font-size:0;line-height:0;overflow:hidden;text-indent:-999em}
 .btn-remove2{display:block;font-size:0;line-height:0;overflow:hidden;text-indent:-999em}
@@ -3045,8 +3045,8 @@ p.category-image img{max-width:100%;padding:10px;background-color:#cfcfcf}
 .account-login .content{box-shadow:0 0 1px 0 #ddd;min-height:300px;padding:15px;background:none repeat scroll 0 0 #fff}
 .account-login .content h2{background:0 1px no-repeat;border-bottom:1px solid #ddd;font-size:100%;font-weight:700;margin:0 0 14px;padding:0 0 5px 23px;text-transform:uppercase;line-height:20px;text-align:left}
 .account-login .content p{margin:10px 0;color: #333}
-.account-login .new-users h2{outline:none;background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_page1.gif);color: #333}
-.account-login .registered-users h2{outline:none;background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_page2.gif);color: #333}
+.account-login .new-users h2{outline:none;background-image:url(/skin/frontend/ktmvelo/home02/images/i_page1.gif);color: #333}
+.account-login .registered-users h2{outline:none;background-image:url(/skin/frontend/ktmvelo/home02/images/i_page2.gif);color: #333}
 .address-contact .page-title span{ color: #fff;}
 .account-login .buttons-set{margin:0;padding:8px 13px}
 .account-login .buttons-set a.f-left{outline:none}
@@ -3078,8 +3078,8 @@ p.category-image img{max-width:100%;padding:10px;background-color:#cfcfcf}
 .dashboard .box .box-title h4{float:left;font-size:120%;font-weight:300;line-height:normal;margin:0;outline:none}
 .dashboard .box .box-title a{line-height:normal;outline-style:none}
 .dashboard .box .box-content p{line-height:25px}
-.dashboard .box-recent .box-head h2{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_folder-table.gif)}
-.dashboard .box-info .box-head h2{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_ma-info.gif)}
+.dashboard .box-recent .box-head h2{background-image:url(/skin/frontend/ktmvelo/home02/images/i_folder-table.gif)}
+.dashboard .box-info .box-head h2{background-image:url(/skin/frontend/ktmvelo/home02/images/i_ma-info.gif)}
 .dashboard .box-info h4{font-size:120%;font-weight:300;text-transform:capitalize}
 .dashboard .box-info address{line-height:25px}
 .dashboard .box-reviews .number{background:#0a263c;color:#fff;float:left;font-weight:700;line-height:1;margin:3px -20px 0 0;padding:2px 3px}
@@ -3087,7 +3087,7 @@ p.category-image img{max-width:100%;padding:10px;background-color:#cfcfcf}
 .dashboard .box-reviews li.item{margin:0 0 7px}
 .dashboard .box-reviews li.item.last{margin:0}
 .dashboard .box-reviews .ratings{margin:7px 0 0}
-.dashboard .box-tags .box-head h2{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/i_ma-tags.gif)}
+.dashboard .box-tags .box-head h2{background-image:url(/skin/frontend/ktmvelo/home02/images/i_ma-tags.gif)}
 .dashboard .box-tags .tags strong{display:inline}
 .dashboard .box-tags .tags ul{display:inline}
 .dashboard .box-tags .tags ul li{display:inline}
@@ -3113,7 +3113,7 @@ p.category-image img{max-width:100%;padding:10px;background-color:#cfcfcf}
 .footer-container .footer{padding:0 0 10px}
 .footer-container .footer-top{padding:60px 0 30px;background:#cccccc}
 .footer-container .footer-top .row > .col-xs-12{margin-bottom:30px}
-.footer-container .footer-top h3{font-size:14px;font-weight:700;margin:0 0 25px;text-transform:uppercase;padding:0 0 20px;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/footer-line.png) 0 bottom no-repeat}
+.footer-container .footer-top h3{font-size:14px;font-weight:700;margin:0 0 25px;text-transform:uppercase;padding:0 0 20px;background:url(/skin/frontend/ktmvelo/home02/images/footer-line.png) 0 bottom no-repeat}
 .footer-container .footer-top .subscribe .form-subscribe-header{margin-bottom:20px}
 .footer-container .footer-top .subscribe input{height:50px;padding:0 20px;border:1px dashed #fff;color:#cdc6b9;-webkit-appearance:none}
 .footer-container .footer-top .subscribe .actions{margin-top:30px;margin-bottom:0}
@@ -3122,8 +3122,8 @@ p.category-image img{max-width:100%;padding:10px;background-color:#cfcfcf}
 .footer-container .footer-top .block-footer{margin-bottom:30px}
 .footer-container .section-space{padding:0}
 .footer-container .section-space .collapsible{text-align:left;clear:both}
-.footer-container .section-space .collapsible .accordion-footer{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/opener-active.png) no-repeat scroll center center #cfcfcf;cursor:pointer;display:block;float:right;height:30px;text-indent:-999em;width:30px}
-.footer-container .section-space .collapsible .accordion-footer.accordion-show{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/opener.png) no-repeat scroll center center #cfcfcf}
+.footer-container .section-space .collapsible .accordion-footer{background:url(/skin/frontend/ktmvelo/home02/images/opener-active.png) no-repeat scroll center center #cfcfcf;cursor:pointer;display:block;float:right;height:30px;text-indent:-999em;width:30px}
+.footer-container .section-space .collapsible .accordion-footer.accordion-show{background:url(/skin/frontend/ktmvelo/home02/images/opener.png) no-repeat scroll center center #cfcfcf}
 .footer-container .footer-copyright{padding:0;z-index:9;position:relative}
 .footer-container .footer-copyright .footer{padding:30px 0}
 .footer-container .footer-copyright .logo-bottom{display:inline-block;vertical-align:top;opacity:.3;margin-right:15px}
@@ -3219,8 +3219,8 @@ p.category-image img{max-width:100%;padding:10px;background-color:#cfcfcf}
 .smallbutton{font-family:'Lato',sans-serif;color:#fff;padding:10px 20px;font-size:180%;line-height:22px!important;font-weight:300;background-color:#fe5252;border:none 0;border-radius:15px 15px 15px 15px;cursor:pointer;transition:all .25s ease 0}
 .smallbutton .fa-chevron-right{font-size:50%!important;margin-left:5px!important}
 .smallbutton:hover{color:#fff;padding:10px 20px;font-size:180%;line-height:22px;font-weight:300;background-color:#ee2e33;border:none 0;border-radius:15px 15px 15px 15px}
-.tp-bullets.simplebullets.round .bullet{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bullet1.png)!important}
-.tp-bullets.simplebullets.round-old .bullet{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bullet-fure.png);height:20px}
+.tp-bullets.simplebullets.round .bullet{background-image:url(/skin/frontend/ktmvelo/home02/images/bullet1.png)!important}
+.tp-bullets.simplebullets.round-old .bullet{background-image:url(/skin/frontend/ktmvelo/home02/images/bullet-fure.png);height:20px}
 .default{border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;-o-border-radius:20px;box-shadow:0 0 0 26px rgba(0,0,0,0) inset;-webkit-box-shadow:0 0 0 26px rgba(0,0,0,0) inset;-moz-box-shadow:0 0 0 26px rgba(0,0,0,0) inset;-o-box-shadow:0 0 0 26px rgba(0,0,0,0) inset}
 .tp-leftarrow.default{background:none #f60!important;height:40px!important;min-height:40px;top:50%!important;left:10px!important;width:40px!important}
 .tparrows.default .fa{display:block;line-height:40px;font-size:100%;color:#fff;text-align:center}
@@ -3253,7 +3253,7 @@ p.category-image img{max-width:100%;padding:10px;background-color:#cfcfcf}
 .panel-group .panel .panel-heading h4.panel-title{float:right;font-size:110%}
 .panel-group .panel .panel-heading h4.panel-title a{background-color:#cfcfcf;display:block;height:23px;outline:medium none;text-indent:-999em;width:23px}
 .panel-group .panel .panel-heading h4.panel-title a:hover{background-color:#bf5452}
-.panel-group .panel .panel-heading h4.panel-title a.accordion-toggle{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/arrow2.png) 6px center #bf5452}
+.panel-group .panel .panel-heading h4.panel-title a.accordion-toggle{background:url(/skin/frontend/ktmvelo/home02/images/arrow2.png) 6px center #bf5452}
 .panel-group .panel .panel-heading h4.panel-title a.accordion-toggle:hover{background-color:#bf5452}
 .panel-group .panel .panel-heading h4.panel-title a.collapsed{background-color:#cfcfcf}
 .panel-group .panel .panel-heading h4.panel-title a.collapsed:hover{background-color:#bf5452}
@@ -3479,7 +3479,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .ktm-ajax-container .access{position:absolute;right:0;top:0}
 #compare-items{margin-bottom:20px}
 .product-details .btn-edit{background:none transparent;font-weight:400;height:16px;line-height:16px;outline:medium none;text-indent:inherit;width:auto;font-size:12px;float:left;padding:0 20px 0 0;text-transform:none!important}
-.btn-edit span.icon{background-image:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/css/ktmcore/ajaxcart/images/btn-edit.png);float:left;width:16px;height:16px;margin:0 5px 0 0;outline:none;border-radius:50%;padding:0}
+.btn-edit span.icon{background-image:url(/skin/frontend/ktmvelo/home02/css/ktmcore/ajaxcart/images/btn-edit.png);float:left;width:16px;height:16px;margin:0 5px 0 0;outline:none;border-radius:50%;padding:0}
 .ktm-ajax-container .access a span.icon,.ktm-ajax-container .product-details .btn-remove span.icon{background-color:#ececec}
 .ktm-ajax-checkout{margin:0;padding:10px 0 5px;text-align:right;border:0}
 .ktm-ajax-checkout a{margin:0 0 0 8px;padding:0 10px;text-align:center;display:inline-block;text-decoration:none;line-height:28px;border:1px solid #eee;text-transform:uppercase;color:#fff}
@@ -3501,7 +3501,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .slider-top .text{position:absolute;top:50%;left:50%;z-index:9;color:#fff;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .slider-top .text .little{font-style:italic;font-size:20px}
 .slider-top .text .large{font-size:61px;font-weight:700;text-transform:uppercase;margin:25px 0 0}
-.dot-line{width:90%;height:100%;position:absolute;top:0;left:5%;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/dot-line.png) no-repeat -25% center;background-size:100%;text-align:center;z-index:10}
+.dot-line{width:90%;height:100%;position:absolute;top:0;left:5%;background:url(/skin/frontend/ktmvelo/home02/images/dot-line.png) no-repeat -25% center;background-size:100%;text-align:center;z-index:10}
 .k2t-scrolldown {
     width: 40px;
     height: 40px;
@@ -3537,7 +3537,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 }
 .bounce{-webkit-animation-name:bounce;animation-name:bounce}
 .main-heading .heading-title h3{font-size:20px;font-weight:700;margin:0;text-align:center;text-transform:uppercase;margin-top:30px;margin-bottom:60px;color:#fff!important}
-.main-heading .heading-title h3 span{display:inline-block;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0}
+.main-heading .heading-title h3 span{display:inline-block;background:url(/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0}
 .product-image-wrap{position:relative}
 .product-image-gallery .gallery-image{display:none}
 .product-image-gallery .gallery-image.visible{display:block}
@@ -3553,7 +3553,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .more-views .owl-theme .owl-nav .owl-next{left:auto;right:0}
 .ktm-container{opacity:0;visibility:hidden;-webkit-transition:all 350ms ease;transition:all 350ms ease;text-decoration:none}
 .ktm-container.loaded{opacity:1;visibility:visible}
-.page-loader{position:fixed;left:0;top:0;width:100%;height:100%;z-index:999;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/loader48.gif) center center no-repeat #fff}
+.page-loader{position:fixed;left:0;top:0;width:100%;height:100%;z-index:999;background:url(/skin/frontend/ktmvelo/home02/images/loader48.gif) center center no-repeat #fff}
 .tabs-collection{text-align:center}
 .widget-tabs{border-bottom:none;display:inline-block;vertical-align:top}
 .widget-tabs > li.active > a,.widget-tabs > li.active > a:focus,.widget-tabs > li.active > a:hover{border:none;background:transparent;color:#000}
@@ -3604,7 +3604,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .k2t-iconbox .learnmore a{color:#fe0002;text-decoration:underline}
 #ktmcore_newsletter .newsleter-wrap > div{padding:0}
 .newsletter-info{text-align:center;padding:0 30px}
-.newsletter-info .newsletter-title{font-weight:700;text-transform:uppercase;margin-top:50px;margin-bottom:30px;padding:0 0 15px;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) center bottom no-repeat}
+.newsletter-info .newsletter-title{font-weight:700;text-transform:uppercase;margin-top:50px;margin-bottom:30px;padding:0 0 15px;background:url(/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) center bottom no-repeat}
 .newsletter-info .intro{margin-bottom:30px;color:#959595}
 .newsletter-info .input-box{margin-bottom:30px}
 .newsletter-info .input-box input{height:50px;border:1px dashed #959595;padding:0 15px;color:#959559}
@@ -3639,9 +3639,9 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .about-us-inner{display:table;background-color:#fff;text-align:center}
 .about-us-inner > div{display:table-cell;vertical-align:middle;width:50%}
 .about-us-inner .text-inner{width:90%;padding:30px;display:inline-block;text-align:left}
-.about-us-inner .text-inner .title{margin-top:0;margin-bottom:30px;padding-bottom:20px;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) 0 bottom no-repeat;font-size:20px;text-transform:uppercase;font-weight:700}
+.about-us-inner .text-inner .title{margin-top:0;margin-bottom:30px;padding-bottom:20px;background:url(/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) 0 bottom no-repeat;font-size:20px;text-transform:uppercase;font-weight:700}
 .about-us-inner .text-inner .text{font-size:16px;color:#959595}
-.service .service-inner .title{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0;font-size:20px;font-weight:700;text-align:center;text-transform:uppercase;margin-top:90px;margin-bottom:30px}
+.service .service-inner .title{background:url(/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0;font-size:20px;font-weight:700;text-align:center;text-transform:uppercase;margin-top:90px;margin-bottom:30px}
 .service .service-inner .text{margin-bottom:60px;color:#959595;font-size:18px}
 .service-item{margin-bottom:30px}
 .service-item .iconbox-icon i{font-style:normal;font-size:40px;height:100px;width:100px;border-radius:50%;border:1px dashed #959595;line-height:98px;text-align:center}
@@ -3650,7 +3650,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .service-item .iconbox-text .desc{color:#959595;line-height:30px;padding:0 15px;font-size:16px}
 .service-item .btn-readmore{margin-top:30px;margin-bottom:0;height:30px;line-height:30px;text-transform:uppercase;padding:0 20px;font-size:10px;font-weight:700;border-radius:15px}
 .our-team{margin-bottom:90px}
-.our-team .our-team-inner .title{background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0;font-size:20px;font-weight:700;text-align:center;text-transform:uppercase;margin-top:60px;margin-bottom:30px}
+.our-team .our-team-inner .title{background:url(/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0;font-size:20px;font-weight:700;text-align:center;text-transform:uppercase;margin-top:60px;margin-bottom:30px}
 .our-team .our-team-inner .text{margin-bottom:60px;color:#959595;font-size:18px}
 .our-team .team-list{padding:30px;background-color:#fff;margin-bottom:30px}
 .our-team .team-list img{width:100%;height:auto}
@@ -3666,7 +3666,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .contact-top{padding:100px 0;margin:30px 0;color:#fff;background-size:cover;background-position:center center;background-repeat:no-repeat}
 .contact-top p{color:#fff!important}
 .contact-top h1{margin-top:0;margin-bottom:5px;font-size:60px;font-weight:700}
-.address-contact h3{font-size:20px;font-weight:700;text-align:center;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0;margin-top:60px;text-transform:uppercase}
+.address-contact h3{font-size:20px;font-weight:700;text-align:center;background:url(/skin/frontend/ktmvelo/home02/images/line.png) bottom center no-repeat;padding:10px 0;margin-top:60px;text-transform:uppercase}
 .address-contact h3 + .text{color:#959595;text-align:center;margin-top:15px}
 .address-contact .fieldset{padding:30px 30px 20px}
 .address-contact .fieldset label{color:#959595}
@@ -3704,7 +3704,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .block-countdown > div > div{display:table-cell;position:relative;float:none;width:50%}
 .block-countdown img{width:100%;height:auto}
 .countdown-content{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);max-width:650px;width:90%;padding:30px}
-.countdown-content h2{margin-top:0;margin-bottom:30px;padding-bottom:20px;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) 0 bottom no-repeat;font-size:20px;font-weight:700}
+.countdown-content h2{margin-top:0;margin-bottom:30px;padding-bottom:20px;background:url(/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) 0 bottom no-repeat;font-size:20px;font-weight:700}
 .countdown-content .sale-off{margin-bottom:40px;color:#959595}
 .countdown-content .btn-readmore{margin-top:30px;border-radius:30px;height:60px;line-height:60px;padding:0 30px;text-transform:uppercase;font-weight:700}
 .countdown-info{background:#fff}
@@ -3718,7 +3718,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .home02-newsletter > div{display:table-cell;width:50%;vertical-align:top;text-align:center;background-color:#333}
 .home02-newsletter img{width:100%;height:auto}
 .home02-newsletter .subscribe{display:inline-block;text-align:left;padding:30px;max-width:80%;width:100%}
-.home02-newsletter .subscribe h3{margin-top:0;margin-bottom:30px;padding-bottom:20px;background:url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) 0 bottom no-repeat;font-size:20px;text-transform:uppercase;font-weight:700}
+.home02-newsletter .subscribe h3{margin-top:0;margin-bottom:30px;padding-bottom:20px;background:url(/skin/frontend/ktmvelo/home02/images/bg-line-newsletter.png) 0 bottom no-repeat;font-size:20px;text-transform:uppercase;font-weight:700}
 .home02-newsletter .form-subscribe-header{color:#959595;margin-bottom:40px}
 .home02-newsletter input{height:60px;border:1px dashed #959595;color:#959595;padding:0 15px;font-style:italic}
 .home02-newsletter button{margin-top:30px;border-radius:30px;height:60px;line-height:60px;padding:0 30px;text-transform:uppercase;font-weight:700;color:#fff}
@@ -3792,7 +3792,7 @@ span.ktm-cart-title{float:left;padding:0;font-size:90%;color:#484848;text-transf
 .cms-home .main-top .container .block-shipping.home02-blockshipping .about {height: auto;}
 .cms-home .main-top .container .block-shipping.home02-blockshipping .location{}
 .cms-home .main-top .container .block-shipping.home02-blockshipping .about .intro{ margin: 150px auto 150px !important;width: 50%;}
-.cms-home .main-top .container .block-shipping.home02-blockshipping {background-image: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/images/concrete.jpg);background-size: 100% 100%;margin: 0;}
+.cms-home .main-top .container .block-shipping.home02-blockshipping {background-image: url(/skin/frontend/ktmvelo/home02/images/concrete.jpg);background-size: 100% 100%;margin: 0;}
 .footer-container .footer-top{padding:0}
 .footer-top .container{width:100%;padding:0}
 .cms-home .main-newsletter{margin:0}
@@ -4043,7 +4043,7 @@ div#ktm-sticky-header-sticky-wrapper.is-sticky #ktm-sticky-header {position: fix
 -------------------------------------------------------------- */
 
 #cboxOverlay {
-    background: #fff url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/overlay.png) repeat 0 0;
+    background: #fff url(/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/overlay.png) repeat 0 0;
 }
 
 #cboxContent {
@@ -4090,7 +4090,7 @@ div#ktm-sticky-header-sticky-wrapper.is-sticky #ktm-sticky-header {position: fix
 
 #cboxPrevious, #cboxNext {
     position: absolute;
-    background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/slider-arrows.png) no-repeat rgba(255,255,255,0.5);
+    background: url(/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/slider-arrows.png) no-repeat rgba(255,255,255,0.5);
     width: 30px;
     height: 30px;
     text-indent: -9999px;
@@ -4125,12 +4125,12 @@ div#ktm-sticky-header-sticky-wrapper.is-sticky #ktm-sticky-header {position: fix
 }
 
 /*#cboxLoadingOverlay {
-    background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/loading_background.png) no-repeat center center;
+    background: url(/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/loading_background.png) no-repeat center center;
     background-size: 60px 60px;
 }*/
 
 #cboxLoadingGraphic {
-    background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/loading.gif) no-repeat center center;
+    background: url(/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/loading.gif) no-repeat center center;
 }
 
 #cboxClose {
@@ -4156,7 +4156,7 @@ div#ktm-sticky-header-sticky-wrapper.is-sticky #ktm-sticky-header {position: fix
     -o-transition: all 350ms ease;
 }
 #cboxLoadingGraphic.box-loading {
-    background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/loading.gif) no-repeat center center;
+    background: url(/skin/frontend/ktmvelo/home02/css/ktmcore/colorbox/images/loading.gif) no-repeat center center;
     display: block;
 }
 .pri_color { color:#fe0002 !important; }
@@ -4866,7 +4866,7 @@ body { background-color:#333333; }
   }
   /* Category */
   .block-layered-nav .currently ol li {
-    background: url("https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/default/images/bg-li-menu-parent.png") no-repeat scroll 0 23% rgba(0, 0, 0, 0);
+    background: url("/imgs/hobart-motorcycles-logo.png") no-repeat scroll 0 23% rgba(0, 0, 0, 0);
   }
   .account-login .content p,
   ul.nav-accordion ul li a {
@@ -5914,7 +5914,7 @@ body { background-color:#333333; }
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(https://www.hobartmotorcycles.com.au/skin/frontend/ktmvelo/default/images/bg_x.png) center no-repeat transparent;
+  background: url(/skin/frontend/ktmvelo/default/images/bg_x.png) center no-repeat transparent;
   z-index: 10;
 }
 .swatch-link:hover {

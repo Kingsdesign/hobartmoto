@@ -16097,46 +16097,8 @@ if (ischrome) {
 });
 
 
-jQuery(document).ready(function($) {
+jQuery(document).ready(function() {
     jQuery('.ktm-container').addClass('loaded');
-    //
-    jQuery( ".slider-top" ).appendTo( ".main-slide" );
-
-    var $sliderTop = $( ".slider-top" );
-    //$sliderTop.appendTo( ".main-slide" );
-
-    var $img1 = $sliderTop.find('img')
-
-    var $img2 = $('<img/>')
-    $img2.attr('src', 'https://www.hobartmotorcycles.com.au/media/wysiwyg/hmc_faster.png')
-    $img2.css({opacity: 0})
-    var $img3 = $('<img/>')
-    $img3.attr('src', 'https://www.hobartmotorcycles.com.au/media/wysiwyg/hmc_skull.png')
-    $img3.css({opacity: 0})
-
-    $img2.appendTo($sliderTop)
-    $img3.appendTo($sliderTop)
-
-    var $images = [$img1, $img2, $img3]
-
-    var activeImage = 0;
-    var timeout
-
-    function changeImage() {
-        if(timeout) {clearTimeout(timeout)}
-
-        var nextImage = activeImage+1
-        if(nextImage>$images.length-1) nextImage = 0
-
-        $images[activeImage].animate({opacity:0})
-        $images[nextImage].animate({opacity:1})
-
-        activeImage = nextImage;
-
-        timeout = setTimeout(changeImage, 2000)
-    }
-    timeout = setTimeout(changeImage, 2000)
-    //$img
 });
 
 /*(function($) {
@@ -16150,9 +16112,9 @@ jQuery(document).ready(function($) {
     $sliderTop.appendTo( ".main-slide" );
 
     var $img2 = $('<img/>')
-    $img2.attr('src', 'https://www.hobartmotorcycles.com.au/media/wysiwyg/hmc_faster.png')
+    $img2.attr('src', '/imgs/hmc_faster.png')
     var $img3 = $('<img/>')
-    $img3.attr('src', 'https://www.hobartmotorcycles.com.au/media/wysiwyg/hmc_skull.png')
+    $img3.attr('src', '/imgs/hmc_skull.png')
 
     $img2.appendTo($sliderTop)
     $img3.appendTo($sliderTop)

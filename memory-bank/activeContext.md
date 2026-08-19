@@ -2,13 +2,14 @@
 
 ## Current Focus
 
-The Memory Bank has been initialized from the repository baseline. The next planned body of work is the staged repair of the existing static scrape, following the sequence documented in `docs/prompts.md`.
+Vercel/static asset hardening has been completed after the homepage three-image hero rotator repair. The next planned body of work is the remaining staged repair of the existing static scrape, following the sequence documented in `docs/prompts.md`.
 
 ## Current Repository State
 
 - Branch: `main`, tracking `origin/main`.
 - The tracked site contains six HTML entry points and route-local copies of CSS, JavaScript, and images.
-- No package manifest, framework, build configuration, test runner, or Vercel configuration is currently present.
+- No package manifest, framework, build configuration, or test runner is currently present.
+- A minimal `vercel.json` is present to keep clean URL behavior while redirecting directory routes to trailing-slash URLs so route-relative scraped assets resolve correctly on deployment.
 - The HTML and assets primarily originate from a Magento/KTM-themed site scrape.
 - `policies/index.html` comes from a separate older Bootstrap/jQuery page structure.
 - `.clinerules/markdown.md` and this `memory-bank/` are newly untracked at initialization time.
@@ -26,12 +27,12 @@ The Memory Bank has been initialized from the repository baseline. The next plan
 ## Planned Repair Sequence
 
 1. Establish the shared repair CSS/JS layer and perform a baseline asset audit.
-2. Repair the homepage three-image hero rotator.
+2. Repair the homepage three-image hero rotator. **Completed.**
 3. Repair shared desktop/mobile navigation and footer behavior.
 4. Repair contact-page layout and provide an honest static-compatible enquiry path.
 5. Repair finance-page content, links, and responsive presentation.
 6. Repair the shop catalogue while clearly retaining only static functionality.
-7. Harden Vercel routing and normalize internal links; add configuration only if required.
+7. Harden Vercel routing and normalize internal links. **Partially completed for routing/static assets.**
 8. Perform complete side-by-side visual, functional, responsive, accessibility, console, and network QA.
 
 ## Important Patterns and Preferences
@@ -46,10 +47,27 @@ The Memory Bank has been initialized from the repository baseline. The next plan
 
 ## Open Questions / Risks
 
-- The actual Vercel project configuration and production behavior have not yet been inspected.
-- Many local and remote asset references require a formal automated audit.
+- The actual deployed Vercel project behavior has not yet been inspected after this hardening pass.
+- A formal local asset-reference audit now reports no missing active local HTML/CSS asset references; deployment should still be checked in the browser after pushing.
 - Existing absolute links can send users back to the legacy domain.
 - Google Universal Analytics and Cloudflare email-decode artifacts may be stale.
 - Duplicated route-local assets make fixes easy to apply inconsistently.
 - The shop references different bundle names from most other Magento-derived pages.
 - The policy page has a separate architecture and likely missing favicon/manifest assets.
+
+## Latest Completed Work — Homepage Hero Rotator
+
+- Added three explicit, root-relative local hero images to `/index.html`.
+- Added isolated responsive fade styling to `/assets/css/fixes.css`.
+- Added an idempotent vanilla-JavaScript rotator to `/assets/js/site.js` with 4-second slide timing, 700ms fades, reduced-motion stability, visibility pause/resume, and failed-image fallback.
+- Removed only the active legacy remote-image rotator handler from the root generated bundle while preserving its unrelated loaded-state initialization.
+- Validated over local HTTP at desktop and mobile widths for more than two cycles; all three hero images returned HTTP 200 from the local origin, the Shop Bikes link remained topmost and navigated to `/shop/`, reduced motion held the first slide, and no uncaught hero errors or hero-image 404s were observed.
+
+## Latest Completed Work — Vercel / Static Asset Hardening
+
+- Added `/vercel.json` with `cleanUrls` and `trailingSlash` enabled so Vercel redirects directory pages such as `/about-us` to `/about-us/`, preserving the scraped pages' route-relative `css/`, `js/`, and `imgs/` references.
+- Added local files for missing active asset references: `/img/motorbackground.jpg`, generated-CSS breadcrumb background copies, policy-page background images, policy-page Bootstrap/Glyphicons and Font Awesome fonts, root app icons, and `/manifest.json`.
+- Normalized malformed scraped Google Fonts links to `https://fonts.googleapis.com/...` and changed the missing shop `/shop/motor-bikes.html` link to `/shop/`.
+- Removed active Cloudflare beacon scripts that referenced missing local `js/v451...` files from the Magento-derived pages.
+- Re-ran a local active HTML/CSS asset-reference audit; result: `MISSING_COUNT 0`.
+- Validated representative routes and repaired assets over local HTTP with `200` responses.
