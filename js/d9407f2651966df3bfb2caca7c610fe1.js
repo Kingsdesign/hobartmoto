@@ -16112,9 +16112,9 @@ jQuery(document).ready(function() {
     $sliderTop.appendTo( ".main-slide" );
 
     var $img2 = $('<img/>')
-    $img2.attr('src', 'https://www.hobartmotorcycles.com.au/media/wysiwyg/hmc_faster.png')
+    $img2.attr('src', '/imgs/hmc_faster.png')
     var $img3 = $('<img/>')
-    $img3.attr('src', 'https://www.hobartmotorcycles.com.au/media/wysiwyg/hmc_skull.png')
+    $img3.attr('src', '/imgs/hmc_skull.png')
 
     $img2.appendTo($sliderTop)
     $img3.appendTo($sliderTop)
