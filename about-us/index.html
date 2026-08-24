@@ -251,34 +251,6 @@
 											</div>
 										</div>
 										<div class="btn-group-right">
-											<div class="quick-top-search">
-												<i class="icon-magnifier"></i>
-												<div class="top-search">
-													<form
-														id="search_mini_form"
-														action="https://www.hobartmotorcycles.com.au/catalogsearch/result/"
-														method="get"
-													>
-														<div class="form-search">
-															<!--<label for="search"></label>-->
-															<input id="search" type="text" name="q" value="" class="input-text" maxlength="128" />
-															<button type="submit" title="Search" class="button-search">
-																<span><i aria-hidden="true" class="icon_search"></i></span>
-															</button>
-															<div id="search_autocomplete" class="search-autocomplete"></div>
-															<script type="text/javascript">
-																//<![CDATA[
-																var searchForm = new Varien.searchForm("search_mini_form", "search", "Search...");
-																searchForm.initAutocomplete(
-																	"https://www.hobartmotorcycles.com.au/catalogsearch/ajax/suggest/",
-																	"search_autocomplete",
-																);
-																//]]>
-															</script>
-														</div>
-													</form>
-												</div>
-											</div>
 											<div class="ktm-top-cart">
 												<div class="ktm-maincart"></div>
 												<div id="notification"></div>
@@ -677,103 +649,111 @@
 				</footer>
 
 				<script type="text/javascript">
-					$ktm(function($) {
-					    //lazyload
-					    $("img.lazy").lazy({
-					        effect : "fadeIn",
-					        effectTime: 800,
-					        threshold: 250,
-					        retinaAttribute: "data-src-retina"
-					    });
-					    //Back to top
-					    $(window).scroll(function () {
-					        if ($(this).scrollTop() > 100) {
-					            $('#back-top').fadeIn();
-					        } else {
-					            $('#back-top').fadeOut();
-					        }
-					    });
-					    $('#back-top a').click(function () {
-					        $('body,html').animate({
-					            scrollTop: 0
-					        }, 800);
-					        return false;
-					    });
-					    // Go to content
-					    $('.k2t-scrolldown > span').click(function () {
-					        var div = '.main-slide + div';
-					        $('html, body').animate({
-					            scrollTop: $(div).offset().top - 60
-					        }, 1000);
-					    });
-					    //Quickview
-					    $(document).on('click', '.product-quickview', function(event) {
-					        event.preventDefault();
-					        $.colorbox({
-					            iframe: true,
-					            href:this.href,
-					            opacity:    0.8,
-					            speed:      300,
-					            current:    '{current} / {total}',
-					            close:      "close",
-					            width: '100%',
-					            height: '100%',
-					            maxWidth: '930px',
-					            maxHeight: '95%',
-					            fastIframe: true,
-					            close: '<i class="fa fa-times-circle-o"></i>',
-					            onOpen: function () {
-					                $('#cboxLoadingGraphic').addClass('box-loading');
-					            },
-					            onComplete: function () {
-					                setTimeout(function () {
-					                    $('#cboxLoadingGraphic').removeClass('box-loading');
-					                }, 3000);
-					            }
-					        });
-					    });
+					$ktm(function ($) {
+						//lazyload
+						$("img.lazy").lazy({
+							effect: "fadeIn",
+							effectTime: 800,
+							threshold: 250,
+							retinaAttribute: "data-src-retina",
+						});
+						//Back to top
+						$(window).scroll(function () {
+							if ($(this).scrollTop() > 100) {
+								$("#back-top").fadeIn();
+							} else {
+								$("#back-top").fadeOut();
+							}
+						});
+						$("#back-top a").click(function () {
+							$("body,html").animate(
+								{
+									scrollTop: 0,
+								},
+								800,
+							);
+							return false;
+						});
+						// Go to content
+						$(".k2t-scrolldown > span").click(function () {
+							var div = ".main-slide + div";
+							$("html, body").animate(
+								{
+									scrollTop: $(div).offset().top - 60,
+								},
+								1000,
+							);
+						});
+						//Quickview
+						$(document).on("click", ".product-quickview", function (event) {
+							event.preventDefault();
+							$.colorbox({
+								iframe: true,
+								href: this.href,
+								opacity: 0.8,
+								speed: 300,
+								current: "{current} / {total}",
+								close: "close",
+								width: "100%",
+								height: "100%",
+								maxWidth: "930px",
+								maxHeight: "95%",
+								fastIframe: true,
+								close: '<i class="fa fa-times-circle-o"></i>',
+								onOpen: function () {
+									$("#cboxLoadingGraphic").addClass("box-loading");
+								},
+								onComplete: function () {
+									setTimeout(function () {
+										$("#cboxLoadingGraphic").removeClass("box-loading");
+									}, 3000);
+								},
+							});
+						});
 
-					    $(document).on('click', '.show-quickview', function(event) {
-					        event.preventDefault();
-					        if($('.btn-cart-mobile').length == 0){
-					            $(this).next().trigger('click');
-					        }else{
-					            return window.location.href=$(this).attr('data-submit');
-					        }
-					    });
+						$(document).on("click", ".show-quickview", function (event) {
+							event.preventDefault();
+							if ($(".btn-cart-mobile").length == 0) {
+								$(this).next().trigger("click");
+							} else {
+								return (window.location.href = $(this).attr("data-submit"));
+							}
+						});
 					});
 
 					$ktm(".accordion-footer").addClass("accordion-show");
-					$ktm(".accordion-footer").click(function(){
-					    if($ktm(this).parent().next().is(":visible")){
-					        $ktm(this).addClass("accordion-show");
-					    }else{
-					        $ktm(this).removeClass("accordion-show");
-					    }
-					    $ktm(this).parent().next().toggle(400);
+					$ktm(".accordion-footer").click(function () {
+						if ($ktm(this).parent().next().is(":visible")) {
+							$ktm(this).addClass("accordion-show");
+						} else {
+							$ktm(this).removeClass("accordion-show");
+						}
+						$ktm(this).parent().next().toggle(400);
 					});
 
-					jQuery(document).ready(function() {
-					    jQuery('[data-toggle="tooltip"]').tooltip({
-					        container: 'body'
-					    });
+					jQuery(document).ready(function () {
+						jQuery('[data-toggle="tooltip"]').tooltip({
+							container: "body",
+						});
 					});
 
 					// button menum mobile
-					(function() {
-					    "use strict";
-					    var toggles = document.querySelectorAll(".cmn-toggle-switch");
-					    for (var i = toggles.length - 1; i >= 0; i--) {
-					        var toggle = toggles[i];
-					        toggleHandler(toggle);
-					    };
+					(function () {
+						"use strict";
+						var toggles = document.querySelectorAll(".cmn-toggle-switch");
+						for (var i = toggles.length - 1; i >= 0; i--) {
+							var toggle = toggles[i];
+							toggleHandler(toggle);
+						}
 
-					    function toggleHandler(toggle) {
-					        toggle.addEventListener("click", function(e) {
-					            e.preventDefault();
-					            (this.classList.contains("active") === true) ? this.classList.remove("active"): this.classList.add("active");
-					        });
-					    }
+						function toggleHandler(toggle) {
+							toggle.addEventListener("click", function (e) {
+								e.preventDefault();
+								this.classList.contains("active") === true
+									? this.classList.remove("active")
+									: this.classList.add("active");
+							});
+						}
 					})();
 
 					//add a shop-bikes button
