@@ -46,12 +46,6 @@
   z-index: 1;
 }
 
-@media (max-width: 767px) {
-  .cms-home .slider-top[data-hero-rotator] .hero-slide {
-    width: 200px;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .cms-home .slider-top[data-hero-rotator] .hero-slide {
     transition: none;
